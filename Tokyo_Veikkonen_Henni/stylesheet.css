@@ -1,0 +1,231 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+/* Header*/
+
+header{
+    background: #000000;
+    color: #ffffff;
+    padding-top: 5px;
+    min-height: 50px;
+    overflow: hidden;
+}
+
+header a{
+    color: #f4f4f4;
+    text-decoration: none;
+}
+
+header ul{
+    margin-right: 20px;
+}
+
+header li{
+    display: inline;
+    padding: 0 10px 0 10px;
+}
+
+/*Nav*/
+header nav{
+    float:right;
+    margin: auto;
+}
+
+header a:hover{
+    color: #cccccc54;
+}
+.main {
+    margin-top: 55px; 
+  }
+  
+/*Season Images*/
+
+.pimg1, .pimg2, .pimg3, .pimg4{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+}
+
+.pimg1{
+    background-image: url(Images1_Veikkonen_Henni/autumn.jpg);
+    min-height: 100%;
+}
+
+.pimg2{
+    background-image: url(Images1_Veikkonen_Henni/winter.jpg);
+    min-height: 100%;
+}
+
+.pimg3{
+    background-image: url(Images1_Veikkonen_Henni/spring.jpg);
+    min-height: 100%;
+}
+
+.pimg4{
+    background-image: url(Images1_Veikkonen_Henni/summer\ \(1\).jpg);
+    min-height: 100%;
+}
+
+/*Sections*/
+
+.section{
+    text-align: center;
+    padding: 60px 90px;
+    font-size: 18px;
+}
+
+.section-light{
+    background-color: #f4f4f4;
+    color: #000000;
+}
+
+.section-dark{
+    background-color:#000000;
+    color: #ffff;
+}
+
+.ptext{
+    position: absolute;
+    text-align: left;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000000;
+    font-size: 24px;
+}
+
+.ptext .border, .gtext .border{
+    background-color: black;
+    color: #ffff;
+    padding: 20px;
+}
+
+.ptext .aborder{
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px;
+}
+
+.pimg1 a, .pimg2 a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.pimg3 a, .pimg4 a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.pimg1 a:hover, .pimg2 a:hover {
+    color: #cccccc54;
+}
+
+.pimg3 a:hover, .pimg4 a:hover {
+    color: #c6c6ca;
+}
+
+/*Gallery*/
+
+.gimg1, .gimg2, .gimg3,  .gimg4, .gimg5{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+}
+
+.gimg1 {
+    background-image: url(Images1_Veikkonen_Henni/Gallery1.jpg);
+    min-height: 100%;
+}
+
+.gimg2 {
+    background-image: url(Images1_Veikkonen_Henni/Gallery2.jpg);
+    min-height: 100%;
+}
+
+.gimg3 {
+    background-image: url(Images1_Veikkonen_Henni/Gallery3.jpg);
+    min-height: 100%;
+}
+
+.gimg4 {
+    background-image: url(Images1_Veikkonen_Henni/Gallery4.jpg);
+    min-height: 100%;
+}
+
+.gimg5 {
+    background-image: url(Images1_Veikkonen_Henni/Gallery5.jpg);
+    min-height: 100%;
+}
+.gtext{
+    position: absolute;
+    top: 75%;
+    width: 100%;
+    
+
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+/*Index*/
+
+.cimg{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+}
+
+.cimg{
+    background-image: url(Images1_Veikkonen_Henni/Index1.jpg);
+    min-height: 100%;
+}
+
+section{
+    text-align: center;
+    padding: 50px 80px;
+    font-size: 16px;
+}
+
+.section-light{
+    background-color: #f4f4f4;
+    color: #000000;
+}
+
+.section-dark{
+    background-color:#000000;
+    color: #ffff;
+}
+
+.ctext{
+    position: absolute;
+    text-align: left;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000000;
+    font-size: 30px;
+}
+
+.ctext .border{
+    background-color: black;
+    color: #ffff;
+    padding: 20px;
+}
+
